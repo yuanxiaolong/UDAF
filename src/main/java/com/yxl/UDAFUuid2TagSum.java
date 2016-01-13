@@ -14,6 +14,9 @@ import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectIn
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import org.apache.hadoop.io.IntWritable;
 
+/**
+ * UDAF 通过条件过滤 执行 wordcount
+ */
 public class UDAFUuid2TagSum extends AbstractGenericUDAFResolver {
 
     private static final Log LOG = LogFactory
